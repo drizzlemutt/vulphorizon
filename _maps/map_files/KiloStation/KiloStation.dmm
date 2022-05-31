@@ -4526,11 +4526,11 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/structure/sign/directions/evac{
-	dir = 8;
+/obj/structure/cable,
+/obj/structure/sign/directions/supply{
+	dir = 1;
 	pixel_y = 24
 	},
-/obj/structure/cable,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -7607,6 +7607,10 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/sign/directions/evac{
+	dir = 4;
+	pixel_y = 24
+	},
 /turf/open/floor/iron/dark,
 /area/maintenance/starboard/fore)
 "awi" = (
@@ -13565,6 +13569,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/loot_site_spawner,
 /obj/effect/spawner/lootdrop/maintenance,
+/obj/structure/sign/directions/supply{
+	dir = 1;
+	pixel_y = 24
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "aRL" = (
@@ -21074,10 +21082,6 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
-	},
-/obj/structure/sign/directions/evac{
-	dir = 4;
-	pixel_y = -24
 	},
 /turf/open/floor/iron/dark,
 /area/maintenance/starboard)
@@ -39974,6 +39978,10 @@
 /obj/structure/sign/directions/supply{
 	dir = 1;
 	pixel_y = 24
+	},
+/obj/structure/sign/directions/evac{
+	dir = 8;
+	pixel_y = 32
 	},
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
@@ -68434,6 +68442,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/cargo/storage)
+"oRu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/directions/supply{
+	dir = 4;
+	pixel_y = 32
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
 "oRD" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
@@ -76040,6 +76056,16 @@
 	luminosity = 2
 	},
 /area/ai_monitored/turret_protected/ai_upload)
+"sfk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/sign/directions/evac{
+	dir = 1;
+	pixel_y = 24
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "sfI" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
@@ -125410,7 +125436,7 @@ aXW
 aXW
 aXW
 aXW
-btR
+sfk
 cIV
 cIU
 cJi
@@ -130518,7 +130544,7 @@ aeu
 aeu
 aUz
 ava
-ctI
+oRu
 eRb
 eRb
 dnG
