@@ -41498,6 +41498,14 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron/dark,
 /area/engineering/storage/tech)
+"dgw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/directions/supply{
+	dir = 4;
+	pixel_y = 32
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
 "dgR" = (
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4{
@@ -41915,8 +41923,8 @@
 	},
 /mob/living/simple_animal/hostile/asteroid/basilisk{
 	environment_smash = 0;
-	name = "Big Kahuna";
-	desc = "Once a domesticated Basilisk, tamed by a legendary Quatermaster, but now is masterless and watches over the office it once called home."
+	name = "First Mate Bassie";
+	desc = "Once a domesticated Basilisk, tamed by a legendary Quatermaster, but now is masterless and feral. It watches over the office it calls home. It wears a tarnished chain with a tag that reads 'First Mate Bassie'"
 	},
 /turf/open/floor/carpet/green,
 /area/cargo/warehouse)
@@ -68442,14 +68450,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/cargo/storage)
-"oRu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/directions/supply{
-	dir = 4;
-	pixel_y = 32
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard)
 "oRD" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
@@ -76056,16 +76056,6 @@
 	luminosity = 2
 	},
 /area/ai_monitored/turret_protected/ai_upload)
-"sfk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/sign/directions/evac{
-	dir = 1;
-	pixel_y = 24
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/fore)
 "sfI" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
@@ -85138,6 +85128,16 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
 /area/security/courtroom)
+"vYA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/sign/directions/evac{
+	dir = 1;
+	pixel_y = 24
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "vYE" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/landmark/start/hangover,
@@ -125436,7 +125436,7 @@ aXW
 aXW
 aXW
 aXW
-sfk
+vYA
 cIV
 cIU
 cJi
@@ -130544,7 +130544,7 @@ aeu
 aeu
 aUz
 ava
-oRu
+dgw
 eRb
 eRb
 dnG
