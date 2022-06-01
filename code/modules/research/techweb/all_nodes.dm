@@ -832,7 +832,7 @@
 		"tray_goggles",
 		"holopad",
 		"vendatray",
-		"long_range"
+		"long_range",
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
