@@ -7607,10 +7607,6 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/structure/sign/directions/evac{
-	dir = 4;
-	pixel_y = 24
-	},
 /turf/open/floor/iron/dark,
 /area/maintenance/starboard/fore)
 "awi" = (
@@ -41498,14 +41494,6 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron/dark,
 /area/engineering/storage/tech)
-"dgw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/directions/supply{
-	dir = 4;
-	pixel_y = 32
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard)
 "dgR" = (
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4{
@@ -41923,8 +41911,8 @@
 	},
 /mob/living/simple_animal/hostile/asteroid/basilisk{
 	environment_smash = 0;
-	name = "First Mate Bassie";
-	desc = "Once a domesticated Basilisk, tamed by a legendary Quatermaster, but now is masterless and feral. It watches over the office it calls home. It wears a tarnished chain with a tag that reads 'First Mate Bassie'"
+	name = "Big Kahuna";
+	desc = "Once a domesticated Basilisk, tamed by a legendary Quatermaster, but now is masterless and watches over the office it once called home."
 	},
 /turf/open/floor/carpet/green,
 /area/cargo/warehouse)
@@ -43182,7 +43170,9 @@
 	pixel_x = -8;
 	pixel_y = -5
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/cargo/warehouse)
 "dWo" = (
 /obj/effect/turf_decal/stripes/line{
@@ -43787,7 +43777,7 @@
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
 "ejA" = (
-/obj/docking_port/stationary/huge{
+/obj/docking_port/stationary/large{
 	dir = 2;
 	name = "Abandoned Station Dock"
 	},
@@ -43924,7 +43914,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "enf" = (
 /obj/structure/table,
@@ -45545,7 +45536,9 @@
 "eRr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/cargo/warehouse)
 "eRF" = (
 /obj/effect/turf_decal/tile/red,
@@ -53043,7 +53036,8 @@
 /area/engineering/atmos)
 "inB" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/dark/visible/layer1,
-/turf/open/floor/iron/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "inX" = (
 /obj/effect/turf_decal/bot,
@@ -53560,7 +53554,10 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/iron/dark,
+/obj/item/stack/cable_coil/cut,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/cargo/warehouse)
 "izS" = (
 /obj/effect/turf_decal/stripes/line{
@@ -53795,6 +53792,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/cargo/warehouse)
 "iER" = (
@@ -54250,7 +54248,7 @@
 	dir = 10
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/dark/visible/layer1,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "iPk" = (
 /obj/machinery/door/firedoor,
@@ -54712,7 +54710,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/corner,
 /obj/item/circuitboard/computer/shuttle_purchase,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "iYJ" = (
 /obj/structure/disposaloutlet,
@@ -57442,7 +57440,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "kgf" = (
 /obj/effect/turf_decal/tile/red{
@@ -60653,7 +60651,9 @@
 	dir = 8
 	},
 /mob/living/simple_animal/hostile/asteroid/hivelord,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/cargo/warehouse)
 "lvY" = (
 /mob/living/simple_animal/hostile/retaliate/goat{
@@ -63915,6 +63915,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/cargo/warehouse)
 "mPC" = (
@@ -64573,7 +64574,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/cargo/warehouse)
 "ngn" = (
 /obj/effect/turf_decal/tile/red{
@@ -66215,7 +66218,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "nUt" = (
 /obj/machinery/computer/secure_data{
@@ -68525,7 +68528,7 @@
 	pixel_x = 8;
 	pixel_y = -5
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "oTs" = (
 /obj/effect/turf_decal/tile/neutral,
@@ -74044,7 +74047,8 @@
 /area/engineering/supermatter/room)
 "rlH" = (
 /obj/effect/turf_decal/bot,
-/turf/open/floor/iron/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "rlS" = (
 /obj/effect/turf_decal/tile/neutral,
@@ -75733,7 +75737,9 @@
 "saK" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/asteroid/hivelord,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/cargo/warehouse)
 "sbe" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -78634,6 +78640,7 @@
 	dir = 10
 	},
 /obj/item/electronics/airlock,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/cargo/warehouse)
 "ttY" = (
@@ -78885,6 +78892,7 @@
 	dir = 8
 	},
 /obj/item/stock_parts/matter_bin,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/cargo/warehouse)
 "tyE" = (
@@ -80768,9 +80776,6 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/disposal/incinerator)
 "uhq" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4{
 	dir = 4
@@ -80783,7 +80788,9 @@
 	dir = 10
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/dark/visible/layer1,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/cargo/warehouse)
 "uhx" = (
 /obj/effect/loot_site_spawner,
@@ -83173,7 +83180,9 @@
 	},
 /obj/item/stack/cable_coil/cut,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/dark/visible/layer1,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/cargo/warehouse)
 "viq" = (
 /obj/structure/lattice/catwalk,
@@ -85128,16 +85137,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
 /area/security/courtroom)
-"vYA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/sign/directions/evac{
-	dir = 1;
-	pixel_y = 24
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/fore)
 "vYE" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/landmark/start/hangover,
@@ -89294,7 +89293,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/cargo/warehouse)
 "xNf" = (
 /obj/structure/table/reinforced,
@@ -89728,6 +89727,7 @@
 /turf/open/floor/iron/showroomfloor,
 /area/medical/exam_room)
 "xWk" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/cargo/warehouse)
 "xWP" = (
@@ -125436,7 +125436,7 @@ aXW
 aXW
 aXW
 aXW
-vYA
+btR
 cIV
 cIU
 cJi
@@ -130544,7 +130544,7 @@ aeu
 aeu
 aUz
 ava
-dgw
+ctI
 eRb
 eRb
 dnG
