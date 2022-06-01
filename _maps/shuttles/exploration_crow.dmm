@@ -117,7 +117,7 @@
 /area/shuttle/crow/cargo)
 "hk" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/poddoor/shutters/window{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "crow_cargo"
 	},
 /turf/open/floor/plating,
@@ -619,7 +619,7 @@
 	name = "cargo shutters"
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/poddoor/shutters/window{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "crow_cargo"
 	},
 /turf/open/floor/plating,
