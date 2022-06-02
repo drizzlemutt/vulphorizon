@@ -55743,10 +55743,6 @@
 /obj/machinery/status_display/evac/directional/east,
 /turf/open/floor/iron/showroomfloor,
 /area/medical/exam_room)
-"jwo" = (
-/obj/machinery/airalarm/directional/east,
-/turf/open/floor/engine,
-/area/science/xenobiology)
 "jwJ" = (
 /obj/machinery/power/solar_control{
 	dir = 4;
@@ -128765,7 +128761,7 @@ aeu
 aeu
 alB
 bfq
-jwo
+aWJ
 bft
 alB
 lgq
