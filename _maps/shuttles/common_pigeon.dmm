@@ -2,7 +2,9 @@
 "be" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/structure/lattice/catwalk/plated,
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/directional/north{
+	locked = 0
+	},
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plating,
 /area/shuttle/pigeon)
@@ -179,7 +181,9 @@
 /area/shuttle/pigeon/helm)
 "se" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/airalarm/directional/east,
+/obj/machinery/airalarm/directional/east{
+	locked = 0
+	},
 /obj/structure/closet/crate/bin,
 /turf/open/floor/pod,
 /area/shuttle/pigeon/helm)
@@ -371,10 +375,12 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/pigeon)
 "Pp" = (
-/obj/machinery/power/apc/auto_name/west,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/holopad/long_range,
+/obj/machinery/power/apc/auto_name/west{
+	locked = 0
+	},
 /turf/open/floor/pod,
 /area/shuttle/pigeon/helm)
 "QV" = (
@@ -476,7 +482,9 @@
 /area/shuttle/pigeon/helm)
 "Yz" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/airalarm/directional/west,
+/obj/machinery/airalarm/directional/west{
+	locked = 0
+	},
 /obj/structure/cable,
 /obj/effect/turf_decal/bot,
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
