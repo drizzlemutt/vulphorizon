@@ -162,6 +162,17 @@
 /obj/structure/lattice/catwalk/plated,
 /turf/open/floor/plating,
 /area/shuttle/rockdove)
+"nl" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "rockdove_shutter"
+	},
+/obj/effect/spawner/structure/window/shuttle,
+/obj/structure/sign/departments/medbay/alt{
+	pixel_x = -32
+	},
+/turf/open/floor/plating,
+/area/shuttle/rockdove/helm)
 "nS" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/pod,
@@ -635,10 +646,10 @@ LX
 Pp
 Nd
 nS
-li
+nl
 "}
 (9,1,1) = {"
-li
+nl
 GX
 zX
 Yb
