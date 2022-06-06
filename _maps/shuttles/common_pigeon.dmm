@@ -154,9 +154,7 @@
 /turf/open/floor/plating,
 /area/shuttle/pigeon)
 "nS" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+/obj/machinery/recharge_station,
 /turf/open/floor/pod,
 /area/shuttle/pigeon/helm)
 "qy" = (
