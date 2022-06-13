@@ -15447,12 +15447,12 @@
 /turf/open/floor/iron/dark,
 /area/science/mixing)
 "aXE" = (
-/obj/machinery/nanite_chamber,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/machinery/component_printer,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "aXH" = (
@@ -15604,10 +15604,6 @@
 /turf/closed/wall/rust,
 /area/maintenance/starboard/fore)
 "aXX" = (
-/obj/structure/chair/office/light{
-	dir = 1;
-	pixel_y = 3
-	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -15618,6 +15614,11 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/chair/office/light{
+	dir = 1;
+	pixel_y = 3
+	},
+/obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "aXY" = (
@@ -15878,8 +15879,6 @@
 	},
 /area/maintenance/central)
 "aYN" = (
-/obj/machinery/nanite_program_hub,
-/obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -15890,6 +15889,14 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/machinery/cell_charger{
+	pixel_y = 5
+	},
+/obj/item/stock_parts/cell/high,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "aYO" = (
@@ -15916,12 +15923,14 @@
 /turf/open/floor/iron/showroomfloor,
 /area/science/research)
 "aYR" = (
-/obj/machinery/computer/nanite_cloud_controller,
-/obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/window/reinforced,
+/obj/structure/rack,
+/obj/item/compact_remote,
+/obj/item/controller,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "aYS" = (
@@ -15938,8 +15947,6 @@
 /turf/open/floor/iron/dark,
 /area/science/research)
 "aYT" = (
-/obj/machinery/nanite_programmer,
-/obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -15949,6 +15956,26 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/item/multitool/circuit{
+	pixel_x = -8
+	},
+/obj/item/multitool/circuit{
+	pixel_x = -4
+	},
+/obj/item/multitool/circuit,
+/obj/item/stock_parts/cell/high{
+	pixel_x = 8;
+	pixel_y = 9
+	},
+/obj/item/stock_parts/cell/high{
+	pixel_x = 8;
+	pixel_y = -2
 	},
 /turf/open/floor/iron/dark,
 /area/science/research)
@@ -16189,8 +16216,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/effect/turf_decal/bot,
 /obj/machinery/holopad,
+/obj/effect/landmark/start/scientist,
+/obj/structure/chair/office/light,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "aZu" = (
@@ -16271,7 +16299,6 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/showroomfloor,
 /area/science/research)
 "aZH" = (
@@ -16494,9 +16521,6 @@
 /area/medical/medbay/central)
 "aZX" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/computer/nanite_chamber_control{
-	dir = 8
-	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -16507,6 +16531,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/machinery/nanite_programmer,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "aZZ" = (
@@ -17185,7 +17210,6 @@
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
 "bbJ" = (
-/obj/machinery/computer/nanite_cloud_controller,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -17193,6 +17217,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/machinery/nanite_chamber,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "bbK" = (
@@ -17201,7 +17226,6 @@
 /turf/open/floor/engine,
 /area/science/mixing/chamber)
 "bbL" = (
-/obj/machinery/nanite_chamber,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -17209,6 +17233,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/machinery/computer/nanite_cloud_controller,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "bbN" = (
@@ -18308,9 +18333,6 @@
 /turf/open/floor/iron/showroomfloor,
 /area/medical/pharmacy)
 "beE" = (
-/obj/structure/chair/office/light{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -18321,7 +18343,10 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/effect/landmark/start/scientist,
+/obj/structure/window/reinforced,
+/obj/structure/rack,
+/obj/item/integrated_circuit/loaded/hello_world,
+/obj/item/integrated_circuit/loaded/speech_relay,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "beH" = (
@@ -52526,6 +52551,18 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/cyan/visible,
 /turf/open/floor/iron/showroomfloor,
 /area/medical/medbay/central)
+"icD" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/computer/nanite_chamber_control{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/science/research)
 "icF" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral{
@@ -58350,7 +58387,6 @@
 /area/engineering/supermatter/room)
 "kzj" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/computer/nanite_chamber_control,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -58367,6 +58403,7 @@
 	network = list("ss13","rd")
 	},
 /obj/machinery/status_display/evac/directional/north,
+/obj/machinery/modular_computer/console/preset/civilian,
 /turf/open/floor/iron/dark,
 /area/science/research)
 "kzI" = (
@@ -83670,14 +83707,11 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/item/folder,
-/obj/item/nanite_scanner{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/item/nanite_remote,
 /obj/machinery/light/directional/east,
 /obj/machinery/bounty_board/directional/north,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 5
+	},
 /turf/open/floor/iron/dark,
 /area/science/research)
 "vsF" = (
@@ -128538,9 +128572,9 @@ rJG
 rJG
 kzj
 aXX
-aYS
+beE
 aZt
-bbl
+icD
 aOi
 cmg
 aYe
@@ -129053,7 +129087,7 @@ nOe
 vlS
 vlS
 aYU
-beE
+aYS
 bbl
 aOi
 aRp
