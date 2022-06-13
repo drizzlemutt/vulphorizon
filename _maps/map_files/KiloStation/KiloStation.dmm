@@ -50765,6 +50765,18 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/corner,
 /area/hallway/primary/starboard)
+"hhi" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/computer/nanite_chamber_control{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/science/research)
 "hhy" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4{
 	dir = 10
@@ -52551,18 +52563,6 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/cyan/visible,
 /turf/open/floor/iron/showroomfloor,
 /area/medical/medbay/central)
-"icD" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/machinery/computer/nanite_chamber_control{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/science/research)
 "icF" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral{
@@ -57915,6 +57915,7 @@
 	id = "emmd";
 	name = "Medical Lockdown Toggle"
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/showroomfloor,
 /area/medical/surgery)
 "kqL" = (
@@ -128574,7 +128575,7 @@ kzj
 aXX
 beE
 aZt
-icD
+hhi
 aOi
 cmg
 aYe
