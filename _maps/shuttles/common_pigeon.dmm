@@ -123,6 +123,7 @@
 /turf/open/floor/plating,
 /area/shuttle/pigeon/helm)
 "lQ" = (
+/obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/lattice/catwalk/plated,
@@ -130,9 +131,6 @@
 	dir = 1
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/external/glass{
-	cyclelinkedairlock = pigeon
-	},
 /turf/open/floor/plating,
 /area/shuttle/pigeon)
 "ml" = (
@@ -408,9 +406,7 @@
 	preferred_direction = 4;
 	width = 11
 	},
-/obj/machinery/door/airlock/external/glass{
-	cyclelinkedairlock = pigeon
-	},
+/obj/machinery/door/airlock/external/glass,
 /obj/structure/lattice/catwalk/plated,
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
