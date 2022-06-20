@@ -132,9 +132,7 @@
 /turf/open/floor/plating,
 /area/shuttle/rockdove/helm)
 "lQ" = (
-/obj/machinery/door/airlock/external/glass{
-	cyclelinkedairlock = rockdove
-	},
+/obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/lattice/catwalk/plated,
@@ -447,13 +445,11 @@
 	preferred_direction = 4;
 	width = 11
 	},
+/obj/machinery/door/airlock/external/glass,
 /obj/structure/lattice/catwalk/plated,
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/external/glass{
-	cyclelinkedairlock = rockdove
-	},
 /turf/open/floor/plating,
 /area/shuttle/rockdove)
 "UO" = (
