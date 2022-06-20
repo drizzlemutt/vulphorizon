@@ -16,6 +16,7 @@
 /area/icemoon/underground/explored)
 "ec" = (
 /obj/item/clothing/suit/hooded/wintercoat,
+/obj/structure/sink/directional/east,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "ei" = (
@@ -24,10 +25,6 @@
 /area/ruin/powered/hermit)
 "gr" = (
 /turf/open/floor/grass/fairy,
-/area/ruin/powered/hermit)
-"ha" = (
-/obj/machinery/light/directional/west,
-/turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "hv" = (
 /obj/machinery/space_heater,
@@ -38,6 +35,7 @@
 /area/ruin/powered/hermit)
 "ii" = (
 /obj/effect/mob_spawn/human/hermit,
+/obj/machinery/light/directional/west,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "lH" = (
@@ -47,12 +45,9 @@
 "mN" = (
 /turf/closed/wall/mineral/wood,
 /area/ruin/powered/hermit)
-"oJ" = (
-/obj/structure/sink,
-/turf/open/floor/plating,
-/area/ruin/powered/hermit)
 "pI" = (
 /obj/item/chair/wood/wings,
+/obj/machinery/light/directional/east,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "sC" = (
@@ -65,8 +60,6 @@
 /area/ruin/powered/hermit)
 "sM" = (
 /obj/structure/chair/comfy/beige,
-/obj/machinery/light/directional/west,
-/obj/machinery/light/directional/north,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "wH" = (
@@ -271,7 +264,7 @@ mN
 sM
 ec
 ii
-ha
+hN
 mN
 OU
 OU
@@ -303,7 +296,7 @@ ON
 gr
 Xh
 Si
-oJ
+cI
 hN
 hN
 pI
