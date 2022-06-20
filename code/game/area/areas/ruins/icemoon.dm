@@ -20,4 +20,4 @@
 
 /area/ruin/powered/hermit
 	name = "Hermit Hovel"
-	icon_station = "dk_yellow"
+	icon_state = "dk_yellow"
