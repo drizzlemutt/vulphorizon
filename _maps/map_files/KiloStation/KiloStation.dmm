@@ -15871,6 +15871,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/purple,
+/obj/structure/cable,
 /turf/open/floor/iron/showroomfloor,
 /area/science/research)
 "aWY" = (
@@ -62186,6 +62187,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/purple,
+/obj/structure/cable,
 /turf/open/floor/iron/showroomfloor,
 /area/command/heads_quarters/rd)
 "ltY" = (
@@ -85671,6 +85673,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/showroomfloor,
 /area/command/heads_quarters/rd)
 "vkY" = (
