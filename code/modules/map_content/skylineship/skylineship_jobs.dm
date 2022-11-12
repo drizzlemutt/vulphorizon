@@ -69,7 +69,7 @@
 	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
 
 /datum/job/skyline/bridge_officer
-	title = "Bridge Officer"
+	title = "CPC Bridge Officer"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	head_announce = list(RADIO_CHANNEL_COMMAND)
 	department_head = list("First Mate", "Captain")
@@ -102,7 +102,7 @@
 	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
 
 /datum/job/skyline/pilot
-	title = "Skyline Pilot"
+	title = "CPC Skyline Pilot"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	head_announce = list(RADIO_CHANNEL_COMMAND)
 	department_head = list("First Mate", "Captain")
@@ -135,7 +135,7 @@
 // SKYLINE ENGINEERING //
 
 /datum/job/skyline/lead_engineer
-	title = "Lead Engineer"
+	title = "CPC Lead Engineer"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	head_announce = list("Engineering")
@@ -180,7 +180,7 @@
 	required_languages = IMPORTANT_ROLE_LANGUAGE_REQUIREMENT
 
 /datum/job/skyline/engineer
-	title = "Ship Engineer"
+	title = "CPC Ship Engineer"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 4
@@ -208,7 +208,7 @@
 // SKYLINE MEDICAL //
 
 /datum/job/skyline/lead_doctor
-	title = "Lead Medical Doctor"
+	title = "CPC Lead Medical Doctor"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	head_announce = list(RADIO_CHANNEL_MEDICAL)
@@ -253,7 +253,7 @@
 	required_languages = IMPORTANT_ROLE_LANGUAGE_REQUIREMENT
 
 /datum/job/skyline/doctor
-	title = "Ship Medical Doctor"
+	title = "CPC Ship Medical Doctor"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 2
@@ -276,7 +276,7 @@
 
 
 /datum/job/skyline/nurse
-	title = "Ship Nurse"
+	title = "CPC Ship Nurse"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 2
@@ -298,7 +298,7 @@
 	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE
 
 /datum/job/skyline/chemist
-	title = "Ship Chemist"
+	title = "CPC Ship Chemist"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 2
@@ -334,7 +334,7 @@
 
 
 /datum/job/skyline/virologist
-	title = "Ship Virologist"
+	title = "CPC Ship Virologist"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 1
@@ -370,7 +370,7 @@
 	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE | JOB_REOPEN_ON_ROUNDSTART_LOSS
 
 /datum/job/skyline/roboticist
-	title = "Ship Roboticist"
+	title = "CPC Ship Roboticist"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 1
@@ -412,7 +412,7 @@
 // SKYLINE RESEARCH //
 
 /datum/job/skyline/lead_researcher
-	title = "Lead Researcher"
+	title = "CPC Lead Researcher"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	head_announce = list("Science")
@@ -445,7 +445,7 @@
 	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE | JOB_BOLD_SELECT_TEXT | JOB_REOPEN_ON_ROUNDSTART_LOSS
 
 /datum/job/skyline/researcher
-	title = "Ship Researcher"
+	title = "CPC Ship Researcher"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 4
@@ -470,7 +470,7 @@
 
 
 /datum/job/skyline/geneticist
-	title = "Ship Geneticist"
+	title = "CPC Ship Geneticist"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 1
@@ -503,7 +503,7 @@
 	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE | JOB_REOPEN_ON_ROUNDSTART_LOSS
 
 /datum/job/skyline/xenobotanist
-	title = "Ship Xenobotanist"
+	title = "CPC Ship Xenobotanist"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 3
@@ -529,7 +529,7 @@
 // SKYLINE SECURITY //
 
 /datum/job/skyline/security_team_lead
-	title = "Security Team Lead"
+	title = "CPC Security Team Lead"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
 	department_head = list("First Mate", "Captain")
 	faction = FACTION_SKYLINESHIP
@@ -565,7 +565,7 @@
 	required_languages = IMPORTANT_ROLE_LANGUAGE_REQUIREMENT
 
 /datum/job/skyline/security_officer
-	title = "Security Officer"
+	title = "CPC Security Officer"
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
 	department_head = list("Security Team Lead", "Bridge Officer", "First Mate", "Captain")
 	faction = FACTION_SKYLINESHIP
@@ -608,7 +608,7 @@
 
 
 /datum/job/skyline/customs_officer
-	title = "Customs Officer"
+	title = "CPC Customs Officer"
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
 	department_head = list("Security Team Lead", "Bridge Officer", "First Mate", "Captain")
 	faction = FACTION_SKYLINESHIP
@@ -653,7 +653,7 @@
 // SKYLINE CARGO //
 
 /datum/job/skyline/lead_deckhand
-	title = "Lead Deckhand"
+	title = "CPC Lead Deckhand"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 1
@@ -686,7 +686,7 @@
 	required_languages = IMPORTANT_ROLE_LANGUAGE_REQUIREMENT
 
 /datum/job/skyline/deckhand
-	title = "Deckhand"
+	title = "CPC Deckhand"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 6
@@ -708,7 +708,7 @@
 
 
 /datum/job/skyline/salvage_worker
-	title = "Salvage Worker"
+	title = "CPC Salvage Worker"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 3
@@ -740,7 +740,7 @@
 // SKYLINE SERVICE //
 
 /datum/job/skyline/private_investigator
-	title = "Private Investigator"
+	title = "CPC Private Investigator"
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
@@ -769,7 +769,7 @@
 	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE | JOB_REOPEN_ON_ROUNDSTART_LOSS
 
 /datum/job/skyline/janitor
-	title = "Ship Janitor"
+	title = "CPC Ship Janitor"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 1
@@ -801,7 +801,7 @@
 	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE | JOB_REOPEN_ON_ROUNDSTART_LOSS
 
 /datum/job/curator/skyline
-	title = "Ship Curator"
+	title = "CPC Ship Curator"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 1
@@ -809,7 +809,7 @@
 	supervisors = "the First Mate and the Captain"
 
 /datum/job/chaplain/skyline
-	title = "Ship Chaplain"
+	title = "CPC Ship Chaplain"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 1
@@ -817,7 +817,7 @@
 	supervisors = "the First Mate and the Captain"
 
 /datum/job/bartender/skyline
-	title = "Ship Bartender"
+	title = "CPC Ship Bartender"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 1
@@ -825,7 +825,7 @@
 	supervisors = "the First Mate and the Captain"
 
 /datum/job/cook/skyline
-	title = "Cook"
+	title = "CPC Ship Cook"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 2
@@ -835,7 +835,7 @@
 // SKYLINE CIVILIAN //
 
 /datum/job/skyline/off_duty
-	title = "Off-Duty Crewmember"
+	title = "CPC Off-Duty Crewmember"
 	faction = FACTION_SKYLINESHIP
 	total_positions = 20
 	spawn_positions = 10
