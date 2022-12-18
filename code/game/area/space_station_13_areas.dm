@@ -1615,3 +1615,49 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/engineering/skylineship/turbine3
 	name = "Turbine 3"
+
+// Christmas Horizon Areas
+/area/maintenance/christmashorizon/atv1
+	name = "ATV Storage 1"
+
+/area/maintenance/christmashorizon/atv2
+	name = "ATV Storage 2"
+
+/area/security/christmashorizon/atv3
+	name = "Security ATV Storage"
+
+/area/medical/christmashorizon/atv4
+	name = "Medical ATV Storage"
+
+/area/engineering/christmashorizon/atv5
+	name = "Engineering ATV Storage"
+
+/area/service/christmashorizon/ballroom1
+	name = "Main Ballroom"
+
+/area/service/christmashorizon/ballroom2
+	name = "West Wing"
+
+/area/service/christmashorizon/ballroom3
+	name = "East Wing"
+
+/area/service/christmashorizon/viplongue
+	name = "Command VIP Longue"
+
+/area/service/christmashorizon/conciergedesk
+	name = "Concierge Desk"
+
+/area/service/christmashorizon/restingroom
+	name = "Main Resting Room"
+
+/area/service/christmashorizon/restingroom2
+	name = "West Wing Common Room"
+
+/area/service/christmashorizon/restingroom3
+	name = "East Wing Common Room"
+
+/area/service/christmashorizon/westhallway
+	name = "Western Hallway"
+
+/area/service/christmashorizon/easthallway
+	name = "Eastern Hallway"

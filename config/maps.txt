@@ -42,6 +42,10 @@ map icebox
 	votable
 endmap
 
+map christmashorizon
+	votable
+endmap
+
 map tramstation
 	minplayers 35
 	votable

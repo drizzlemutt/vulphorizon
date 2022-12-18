@@ -45,3 +45,11 @@
 	minimum_temp = T20C - 70
 	maximum_temp = T20C - 50
 
+/datum/atmosphere/christmashorizon
+	base_gases = list(
+		/datum/gas/oxygen=5,
+		/datum/gas/nitrogen=10,
+	)
+
+	minimum_temp = T20C - 40
+	maximum_temp = T20C - 37.78
