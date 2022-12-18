@@ -7846,7 +7846,7 @@
 	},
 /obj/machinery/door/airlock/wood/glass{
 	name = "Resort Horziontal";
-	id = "eastdoors"
+	id_tag = "eastdoors"
 	},
 /turf/open/floor/stone,
 /area/service/christmashorizon/conciergedesk)
@@ -8134,7 +8134,7 @@
 "iAo" = (
 /obj/machinery/door/airlock/wood/glass{
 	name = "Resort Horziontal";
-	id = "eastdoors"
+	id_tag = "eastdoors"
 	},
 /turf/open/floor/wood/large,
 /area/service/christmashorizon/conciergedesk)
@@ -14516,7 +14516,8 @@
 /area/security/christmashorizon/atv3)
 "pLi" = (
 /obj/machinery/button/door/directional/south{
-	id = "eastdoors"
+	id = "eastdoors";
+	normaldoorcontrol = 1
 	},
 /turf/open/floor/wood/large,
 /area/service/christmashorizon/conciergedesk)
@@ -17538,7 +17539,7 @@
 "sXy" = (
 /obj/machinery/door/airlock/wood/glass{
 	name = "Resort Horziontal";
-	id = "westdoors"
+	id_tag = "westdoors"
 	},
 /turf/open/floor/wood/large,
 /area/service/christmashorizon/conciergedesk)
@@ -21172,7 +21173,7 @@
 	},
 /obj/machinery/door/airlock/wood/glass{
 	name = "Resort Horziontal";
-	id = "westdoors"
+	id_tag = "westdoors"
 	},
 /turf/open/floor/stone,
 /area/service/christmashorizon/conciergedesk)
